@@ -1,4 +1,5 @@
-import cgi
+import cgi,cgitb
+cgitb.enable()
 from fbchat import Client
 from fbchat.models import *
 client = Client('juulythebear@gmail.com','JerryisA1')
